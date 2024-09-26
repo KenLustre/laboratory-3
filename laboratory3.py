@@ -5,7 +5,7 @@ if sal >= 30000 and loan <= sec:
     print("You are eligible to have a loan!")
     loan_interest = loan * 1.10
     month = int(input("How many months will you pay your loan? = "))
-    monthly_payment = loan / month
+    monthly_payment = loan_interest / month
     print("Your monthly pay with 10% Interest: ", monthly_payment)
 else:
      print("You are not eligible for a loan.")
